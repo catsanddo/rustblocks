@@ -1,0 +1,6 @@
+deliminator = "|"
+
+[[block]]
+command = "date '+%b %d (%a) %I:%M%p'"
+interval = 60
+

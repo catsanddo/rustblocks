@@ -2,6 +2,12 @@
 name = "rustblocks"
 version = "0.1.0"
 authors = ["catsanddo <travisscoville@gmail.com>"]
+license = "MIT"
+desciption = "A dwm status bar program"
+readme = "README.md"
+homepage = https://github.com/catsanddo/rustblocks"
+repository = https://github.com/catsanddo/rustblocks"
+keywords = ["dwm", "status", "bar"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

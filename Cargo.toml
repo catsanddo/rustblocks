@@ -5,8 +5,8 @@ authors = ["catsanddo <travisscoville@gmail.com>"]
 license = "MIT"
 desciption = "A dwm status bar program"
 readme = "README.md"
-homepage = https://github.com/catsanddo/rustblocks"
-repository = https://github.com/catsanddo/rustblocks"
+homepage = "https://github.com/catsanddo/rustblocks"
+repository = "https://github.com/catsanddo/rustblocks"
 keywords = ["dwm", "status", "bar"]
 edition = "2018"
 

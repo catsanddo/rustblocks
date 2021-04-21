@@ -3,11 +3,14 @@ extern crate toml;
 use std::thread::sleep;
 use std::time::{Duration, Instant};
 use std::process::Command;
+use std::env;
 use toml::Value;
 use rustblocks::block;
 
 fn main() {
-    let config = std::fs::read_to_string("$HOME/.rustblocks.toml").expect("Could not read config file!");
+    let mut home = env::var("HOME").unwrap();
+    home.push_str("/.rustblocks.toml");
+    let config = std::fs::read_to_string(&home).expect("Could not read config file!");
     let config = config.as_str().parse::<Value>().unwrap();
 
     let (delim, mut blocks) = block::load_config(&config);
